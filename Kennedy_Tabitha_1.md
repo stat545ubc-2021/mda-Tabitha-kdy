@@ -206,7 +206,7 @@ ggplot(data=apt_buildings, aes(no_of_storeys)) +
 
     ## Warning: Removed 1 rows containing missing values (geom_bar).
 
-![](Kennedy_Tabitha_1_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](images/graph_1_mini_1.png)
 
 ### 2.1.2: Create a new variable based on other variables in your data:
 
@@ -254,8 +254,7 @@ proportions within each category, rather than counts.
  xlab("Air Conditioning")+
  ylab("Count")
 ```
-
-![](Kennedy_Tabitha_1_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](images/graph_2_mini_1.png)
 
 ### 2.1.4: Use a density plot to explore any of your variables:
 
@@ -271,9 +270,8 @@ ggplot(apt_buildings, aes(year_built))+
   ylab("Density")
 ```
 
-    ## Warning: Removed 13 rows containing non-finite values (stat_density).
+![](images/graph_3_mini_1.png)
 
-![](Kennedy_Tabitha_1_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ### Task 3: Write my research question:
 
