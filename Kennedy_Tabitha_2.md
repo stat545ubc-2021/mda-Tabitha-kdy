@@ -166,7 +166,7 @@ ggplot(apt_buildings, aes(year_built, living_score)) +
   ylim(0,3)
 ```
 
-    ## Warning: Removed 486 rows containing missing values (geom_point).
+    ## Warning: Removed 477 rows containing missing values (geom_point).
 
 ![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 From the plot above, it appears that the years 1950 to 1975 contained
@@ -331,6 +331,11 @@ for small sized apartment buildings.
 
 I decided to compute the number of observations (i.e. number of
 apartment buildings) in each ward (a categorical variable).
+
+``` r
+#note: I used the following function below, but it would not knit into a .md file.
+#apt_buildings %>% count(ward, sort = TRUE) %>% rmarkdown::paged_table()
+```
 
 We can see that ward 12 contains the most apartment buildings out of all
 26 wards in Toronto. Ward 12 contains 331 apartment buildings! The ward
