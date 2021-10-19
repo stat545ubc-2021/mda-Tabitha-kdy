@@ -168,7 +168,8 @@ ggplot(apt_buildings, aes(year_built, living_score)) +
 
     ## Warning: Removed 477 rows containing missing values (geom_point).
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](images/graph_4_mini_2.png)
+
 From the plot above, it appears that the years 1950 to 1975 contained
 the most apartments with a living quality score of 2 or 3. For a living
 quality score of 1, apartments tended to be more concentrated between
@@ -216,7 +217,7 @@ ggplot(apt_buildings, aes(x = age_significance, stat="count")) +
  scale_y_continuous(labels = scales::percent)
 ```
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](images/graph_5_mini_2.png)
 
 From the plot above, we can see that both Heritage and Modern apartment
 buildings tend to lack an exterior fire escape. Comparing across
@@ -234,7 +235,7 @@ plot.
  scale_y_continuous(labels = scales::percent)
 ```
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](images/graph_6_mini_2.png)
 
 From the plot above, we can see that having emergency power is less
 common in Heritage apartment buildings than it is within Modern
@@ -252,7 +253,7 @@ in a bar plot.
  scale_y_continuous(labels = scales::percent)
 ```
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](images/graph_7_mini_2.png)
 
 From the plot above, it appears that both Heritage and Modern apartment
 buildings have more buildings that are smoking-friendly than
@@ -287,7 +288,7 @@ apt_buildings$building_size <- factor(apt_buildings$building_size, levels = c("S
  ylab("Count")
 ```
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](images/graph_8_mini_2.png)
 
 From the plot above, we can see that the majority of apartment buildings
 in Toronto are considered to be small in size.
@@ -307,7 +308,7 @@ apt_buildings$living_score <- as.character(apt_buildings$living_score)
  ylab("Count")
 ```
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](images/graph_9_mini_2.png)
 
 From the plot above, we can see that small apartment buildings contain
 the vast majority of apartments in Toronto with living scores of 0. This
@@ -337,6 +338,8 @@ apartment buildings) in each ward (a categorical variable).
 #apt_buildings %>% count(ward, sort = TRUE) %>% rmarkdown::paged_table()
 ```
 
+![](images/ward_table.png)
+
 We can see that ward 12 contains the most apartment buildings out of all
 26 wards in Toronto. Ward 12 contains 331 apartment buildings! The ward
 with the lowest number of apartment buildings was ward YY, while ward 23
@@ -358,7 +361,7 @@ ggplot(apt_buildings, aes(x = ward, stat="count"))+
  ylab("Count")
 ```
 
-![](Kennedy_Tabitha_2_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](images/graph_10_mini_2.png)
 
 ### 1.3: Progress in Answering Research Questions:
 
