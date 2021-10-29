@@ -206,7 +206,7 @@ ggplot(data=apt_buildings, aes(no_of_storeys)) +
 
     ## Warning: Removed 1 rows containing missing values (geom_bar).
 
-![](images/graph_1_mini_1.png)
+![](mda-Tabitha-kdy/images/graph_1_mini_1.png)
 
 ### 2.1.2: Create a new variable based on other variables in your data:
 
