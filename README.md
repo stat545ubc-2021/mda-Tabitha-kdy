@@ -21,7 +21,7 @@ The files Kennedy_Tabitha_3.Rmd, Kennedy_Tabitha_3.md, and the folder *output* (
 
 **Folder Specifics:**
 
-*images:* contains png files inserted into the following .md files for viewing on GitHub: Kennedy_Tabitha_1.md, Kennedy_Tabitha_2.md, and Kennedy_Tabitha_3.md.
+- **images:** contains png files inserted into the following .md files for viewing on GitHub: Kennedy_Tabitha_1.md, Kennedy_Tabitha_2.md, and Kennedy_Tabitha_3.md.
 
 *output:* contains files created in Milestone 3, for demonstrating reading and writing data as separate files.
 
