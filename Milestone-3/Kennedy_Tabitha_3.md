@@ -229,7 +229,7 @@ plot(living_score ~ year_built, apt_buildings)
 abline(a)
 ```
 
-![](images/image_3.png)
+![](images/image_2.5.png)
 
 As seen in the plot above, there appears to be a positive relationship
 between living\_score and year\_built (although we cannot tell how well
