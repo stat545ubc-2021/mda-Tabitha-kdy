@@ -136,7 +136,7 @@ apt_buildings$living_score <- as.character(apt_buildings$living_score)
  ylab("Count")
 ```
 
-![](Kennedy_Tabitha_3_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](images/image_1.png)
 
 Now, choose two of the following tasks:
 
@@ -156,7 +156,7 @@ apt_buildings_2 <- apt_buildings %>%
  ylab("Count")
 ```
 
-![](Kennedy_Tabitha_3_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](images/image_2.png)
 
 We can see from the plot above that living quality score 5 was the most
 frequent score in our dataset, and that living quality score 0 was the
@@ -229,7 +229,7 @@ plot(living_score ~ year_built, apt_buildings)
 abline(a)
 ```
 
-![](Kennedy_Tabitha_3_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](images/image_3.png)
 
 As seen in the plot above, there appears to be a positive relationship
 between living\_score and year\_built (although we cannot tell how well
