@@ -25,4 +25,4 @@ The files Kennedy_Tabitha_3.Rmd, Kennedy_Tabitha_3.md, and the folder *output* (
 - **Milestone-1:** contains files exclusive to Milestone 1 work.
 - **Milestone-2:** contains files exclusive to Milestone 2 work.
 - **Milestone-3:** contains files exclusive to Milestone 3 work.
-- **images:** folder contained withing each Milestone folder; holds png files inserted into the following .md files for viewing on GitHub: Kennedy_Tabitha_1.md, Kennedy_Tabitha_2.md, and Kennedy_Tabitha_3.md.
+- **images:** folder contained within each Milestone folder; holds png files inserted into the following .md files for viewing on GitHub: Kennedy_Tabitha_1.md, Kennedy_Tabitha_2.md, and Kennedy_Tabitha_3.md.
